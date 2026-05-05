@@ -27,6 +27,16 @@ spec:
       kind: DataScienceCluster
       jsonPointers:
         - /spec/components
+    - group: apps
+      kind: Deployment
+      name: rhods-dashboard
+      jsonPointers:
+        - /spec
+    - group: apps
+      kind: Deployment
+      name: rhods-operator
+      jsonPointers:
+        - /spec
   syncPolicy:
     automated:
       prune: true
