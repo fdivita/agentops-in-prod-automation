@@ -10,9 +10,9 @@ deployer:
   domain: apps.cluster.example.com
 
 remotellm:
-  enabled: false
-  apiToken: ""
-  url: ""
+  enabled: true
+  apiToken: "sk-lbxxyWXqTwHLbBesbGzm0w"
+  url: "https://litellm-prod.apps.maas.redhatworkshops.io/v1"
   id: ""
 
 devworkspacetemplate:
