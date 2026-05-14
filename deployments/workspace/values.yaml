@@ -11,7 +11,7 @@ deployer:
 
 remotellm:
   enabled: true
-  apiToken: "sk-lbxxyWXqTwHLbBesbGzm0w"
+  apiToken: ""
   url: "https://litellm-prod.apps.maas.redhatworkshops.io/v1"
   id: ""
 
